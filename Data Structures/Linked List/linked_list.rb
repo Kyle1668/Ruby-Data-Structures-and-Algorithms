@@ -1,9 +1,10 @@
 class LinkedList
 
   class Node
-    Number @data
-    Node @prev_node
-    Node @next_node
+
+    @data
+    @prev_node
+    @next_node
 
     def initialize(in_data)
       @data = in_data
@@ -13,10 +14,10 @@ class LinkedList
 
   end
 
-  Number size
-  Node @head_node
-  Node @tail_node
-  Node @current_node
+  @size
+  @head_node
+  @tail_node
+  @current_node
 
   def initialize
     @size = 0
@@ -29,14 +30,15 @@ class LinkedList
     @head_node = @tail_node = @current_node = new_node
   end
 
+  # Adds a new node after the current node.
   def add(data)
     new_node = Node.new(data)
 
     if @size == 0
       add_first_node(new_node)
-    elsif @current_node == @head_node
-      new_node
     elsif @current_node == @tail_node
+      new_node.prev_node = @head_node
+      @head_node.next_node = new_node
 
     else
 
