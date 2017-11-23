@@ -13,6 +13,8 @@ class BinaryTree
 
   end
 
+  attr_accessor :root_node, :size
+
   def initialize
     @root_node = nil
     @size = 0
@@ -31,7 +33,7 @@ class BinaryTree
     end
   end
 
-  def add_node_helper(ind_data, parent_node)
+  def add_node_helper(in_data, parent_node)
 
   end
 
