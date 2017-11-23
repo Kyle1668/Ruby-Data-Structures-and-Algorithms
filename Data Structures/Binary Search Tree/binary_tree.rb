@@ -21,12 +21,11 @@ class BinaryTree
   end
 
   def init_first_node(in_leaf)
-    @root_node = Leaf.new(in_data, nil, nil)
+    @root_node = Leaf.new(in_leaf, nil, nil)
     @size = 1
   end
 
   def add_node(in_data)
-
     new_leaf = Leaf.new(in_data, nil, nil)
 
     if @size == 0
@@ -39,6 +38,10 @@ class BinaryTree
 
   def add_node_helper(new_leaf, parent_node)
     if parent_node.left_leaf == nil
+      parent_node.left_leaf = new_leaf
+    elsif parent_node.left_leaf.data < new_leaf.data
+
+    elsif parent_node.left_leaf.data < new_leaf.data
 
     end
   end
