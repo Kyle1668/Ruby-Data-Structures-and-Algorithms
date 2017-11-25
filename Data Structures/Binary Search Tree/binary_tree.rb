@@ -40,7 +40,7 @@ class BinaryTree
     if parent_node.left_leaf == nil
       parent_node.left_leaf = new_leaf
     elsif parent_node.left_leaf.data < new_leaf.data
-
+      add_node_helper(new_leaf, parent_node.left_leaf)
     elsif parent_node.left_leaf.data < new_leaf.data
 
     end
