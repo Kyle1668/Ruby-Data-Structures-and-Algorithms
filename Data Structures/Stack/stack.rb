@@ -20,6 +20,13 @@ class Stack
     @current_node = nil
   end
 
+  def init_first_node(in_data)
+    @size = 1
+    @head_node = @tail_node = @current_node = Node.new(in_data)
+  end
+
+
+
 
 
 end

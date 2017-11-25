@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="binary_tree.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data Structures/Binary Search Tree/binary_tree.rb">
+      <file leaf-file-name="linked_list.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data Structures/Linked List/linked_list.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="46">
+              <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stack.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data Structures/Stack/stack.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -49,6 +59,7 @@
         <option value="$PROJECT_DIR$/Data Structures/Linked List/test.rb" />
         <option value="$PROJECT_DIR$/Data Structures/Linked List/linked_list.rb" />
         <option value="$PROJECT_DIR$/Data Structures/Binary Search Tree/binary_tree.rb" />
+        <option value="$PROJECT_DIR$/Data Structures/Stack/stack.rb" />
       </list>
     </option>
   </component>
@@ -93,6 +104,12 @@
               <item name="Ruby Data Structures and Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ruby Data Structures and Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="Data Structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ruby Data Structures and Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ruby Data Structures and Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="Linked List" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,12 +200,12 @@
       <updated>1510108093383</updated>
       <workItem from="1510108094583" duration="381000" />
       <workItem from="1510108801965" duration="5573000" />
-      <workItem from="1511406579525" duration="3616000" />
+      <workItem from="1511406579525" duration="3952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9570000" />
+    <option name="totallyTimeSpent" value="9906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -242,14 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/Linked List/linked_list.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/Linked List/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -260,8 +269,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/Binary Search Tree/binary_tree.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/Linked List/linked_list.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/Stack/stack.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
