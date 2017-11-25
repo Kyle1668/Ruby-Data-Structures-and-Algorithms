@@ -45,19 +45,6 @@ class BinaryTree
     else
       parent_node.left_leaf = new_leaf
     end
-
-
-
-      # if (parent == null) {
-      #     parent = newNode;
-      # size++;
-      # }
-      # else if (newNode.ID < parent.ID) {
-      #     add(newNode, parent.leftChild);
-      # }
-      #      else {
-      #          add(newNode, parent.rightChild);
-      #      }
   end
 
 end
